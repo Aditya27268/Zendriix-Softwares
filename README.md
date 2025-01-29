@@ -41,10 +41,8 @@ git checkout -b feature/payment-gateway
 After finishing the features, merge them into `develop`:
 ```bash
 git checkout develop
-git merge feature/login-module
-git merge feature/payment-gateway
-git branch -d feature/login-module
-git branch -d feature/payment-gateway
+git merge feature/new-module
+git merge feature/new-feature
 ```
 
 ### **Step 3: Create a Release Branch (15th of the Month)**
